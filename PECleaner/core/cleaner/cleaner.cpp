@@ -232,9 +232,9 @@ bool clearVersionFields(LPVOID pBase)
     pOpt->MinorLinkerVersion = 0;
     pOpt->MajorImageVersion = 0;
     pOpt->MinorImageVersion = 0;
-    pOpt->MajorOperatingSystemVersion = 0;
+    pOpt->MajorOperatingSystemVersion = 6;
     pOpt->MinorOperatingSystemVersion = 0;
-    pOpt->MajorSubsystemVersion = 0;
+    pOpt->MajorSubsystemVersion = 6;
     pOpt->MinorSubsystemVersion = 0;
 
     std::cout << "[+] Version fields cleared\n";
